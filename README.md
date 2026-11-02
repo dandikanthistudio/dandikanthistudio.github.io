@@ -7,6 +7,7 @@
 - 🌐 Website: https://dandikanthistudio.github.io/
 - ▶️ YouTube: https://www.youtube.com/channel/UCNUUcV7QGrC_Yc0GJ1paE6Q
 - 🔒 Privacy Policy: https://dandikanthistudio.github.io/privacy.html
+- 📄 Terms of Service: https://dandikanthistudio.github.io/terms.html
 
 ## इस repo में क्या है
 
@@ -16,6 +17,7 @@
 |---|---|
 | `index.html` | होम पेज: चैनल का परिचय, Subscribe बटन और नई कहानियों का player |
 | `privacy.html` | Privacy policy, जो चैनल के upload tool के Google login के लिए ज़रूरी है |
+| `terms.html` | Terms of service, जो Google login की consent screen पर दिखती है |
 | `logo.webp`, `favicon.png` | चैनल का logo |
 
 होम पेज का player चैनल की long-story playlist से चलता है, इसलिए हर नई कहानी उसमें अपने-आप आ जाती है। Website को हाथ से update करने की ज़रूरत नहीं है।
