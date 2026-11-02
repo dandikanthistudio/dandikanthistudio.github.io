@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="hi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dandi Kanthi Studio</title>
+<meta name="description" content="डंडी कांठी स्टूडियो: उत्तराखंड की लोक-कथाएँ, कार्टून में, पूरे परिवार के लिए।">
+<link rel="icon" type="image/png" href="favicon.png">
+<meta property="og:image" content="https://dandikanthistudio.github.io/logo.webp">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mukta:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #f6f1e7; --surface: #fffdf8; --text: #2b2418; --muted: #6b5f4b;
+    --accent: #b5442e; --accent-text: #fff; --line: #e3d9c6; --forest: #2f5d46;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #15130f; --surface: #1f1c16; --text: #f1e9da; --muted: #b3a68e;
+      --accent: #e0654b; --accent-text: #1a0f0b; --line: #383226; --forest: #7fb89a; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text); font-family: 'Mukta', system-ui, sans-serif; line-height: 1.65; }
+  .wrap { max-width: 920px; margin: 0 auto; padding: 0 16px; }
+  header { padding: 48px 0 40px; border-bottom: 1px solid var(--line); }
+  .hero { display: flex; align-items: center; gap: 32px; flex-wrap: wrap; }
+  .hero img { width: 200px; height: 200px; flex: none; }
+  .hero > div { flex: 1 1 320px; }
+  .eyebrow { color: var(--forest); font-weight: 600; letter-spacing: .04em; margin: 0 0 8px; }
+  h1 { font-size: clamp(2.2rem, 6vw, 3.6rem); line-height: 1.1; margin: 0 0 16px; font-weight: 800; }
+  .lead { font-size: 1.2rem; color: var(--muted); max-width: 640px; margin: 0 0 28px; }
+  .button { display: inline-block; background: var(--accent); color: var(--accent-text); text-decoration: none;
+    font-weight: 600; padding: 12px 22px; border-radius: 999px; }
+  .button:focus-visible, a:focus-visible { outline: 3px solid var(--forest); outline-offset: 3px; }
+  section { padding: 44px 0; border-bottom: 1px solid var(--line); }
+  h2 { font-size: 1.6rem; margin: 0 0 16px; }
+  .video { position: relative; aspect-ratio: 16 / 9; background: #000; border-radius: 12px; overflow: hidden; }
+  .video iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+  .points { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; padding: 0; margin: 0; list-style: none; }
+  .points li { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 18px; }
+  .points strong { display: block; margin-bottom: 4px; }
+  .note { color: var(--muted); font-size: .95rem; }
+  a { color: var(--accent); }
+  footer { padding: 32px 0 48px; color: var(--muted); font-size: .95rem; }
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap hero">
+    <img src="logo.webp" alt="Dandi Kanthi Studio का लोगो" width="200" height="200">
+    <div>
+      <p class="eyebrow">देवभूमि की कहानियाँ, हमारी पहचान</p>
+      <h1>डंडी कांठी स्टूडियो</h1>
+      <p class="lead">पहाड़ों की लोक-कथाएँ, देवताओं की गाथाएँ और गाँवों के रहस्य, कार्टून में। ऐसी कहानियाँ जो दादा-दादी से लेकर बच्चे तक, पूरा परिवार साथ बैठकर देख सके।</p>
+      <a class="button" href="https://www.youtube.com/channel/UCNUUcV7QGrC_Yc0GJ1paE6Q?sub_confirmation=1">YouTube पर Subscribe करें</a>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section>
+    <div class="wrap">
+      <h2>नई कहानियाँ</h2>
+      <div class="video">
+        <iframe src="https://www.youtube-nocookie.com/embed/videoseries?list=PLMJpGZM1zfdA"
+          title="Dandi Kanthi Studio की वीडियो" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"
+          allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <p class="note">सारी वीडियो देखने के लिए <a href="https://www.youtube.com/channel/UCNUUcV7QGrC_Yc0GJ1paE6Q/videos">चैनल पर जाएँ</a>।</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <h2>हमारी कहानियाँ कैसी होती हैं</h2>
+      <ul class="points">
+        <li><strong>असली लोक-कथाएँ</strong>उत्तराखंड के देवताओं, जगहों, त्योहारों और रीति-रिवाजों पर आधारित, अपने शब्दों में।</li>
+        <li><strong>सच और कल्पना साफ़</strong>हर वीडियो के अंत में बताया जाता है कि क्या असली है और क्या कहानी के लिए गढ़ा गया।</li>
+        <li><strong>पूरे परिवार के लिए</strong>आसान हिंदी, गढ़वाली शब्दों की मिठास, कोई खून-खराबा नहीं। डर सिर्फ़ हल्का रहस्य।</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <h2>About this site</h2>
+      <p>Dandi Kanthi Studio is a YouTube channel of animated Uttarakhand folk tales in Hindi. The "Dandi Kanthi Studio" app is a private tool used only by the channel owner to upload and manage videos on the channel's own YouTube account. Read the <a href="privacy.html">Privacy Policy</a>.</p>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    संपर्क: <a href="mailto:negih49@gmail.com">negih49@gmail.com</a> · <a href="privacy.html">Privacy Policy</a>
+  </div>
+</footer>
+</body>
+</html>
